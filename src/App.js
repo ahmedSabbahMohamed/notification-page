@@ -16,8 +16,8 @@ function App() {
   }
   return (
     <>
-    <main className="bg-white shadow-xl rounded-2xl p-8 max-w-3xl m-8">
-    <div className="flex justify-between items-center gap-4 mb-8">
+    <main className="bg-white shadow-xl p-8 max-w-3xl sm:m-4 sm:rounded-2xl">
+    <div className="flex justify-between items-center flex-col gap-4 mb-8 sm:flex-row">
       <h1 className="text-2xl text-vdblue font-bold flex items-center">Notifications<span className="grid place-items-center bg-Blue text-white rounded-md w-8 h-8 ml-2">3</span></h1>
       <p className="text-dgblue text-lg hover:text-Blue hover:cursor-pointer" onClick={handleClick}>Marke all as read</p>
     </div>
@@ -60,7 +60,7 @@ function App() {
       <img className="rounded-full w-16 h-16" src={rizky} alt='rizky' />
       <div>
       <p className="text-dgblue"><b className='text-vdblue cursor-pointer hover:text-Blue'>Rizky Hasanuddin </b> sent you a private message<span className='block'>5m ago</span></p>
-      <div className='border-gblue border rounded my-2 p-6 cursor-pointer hover:bg-lgblue2 hover:border-white'>
+      <div className='border-gblue border rounded my-2 p-2 text-sm cursor-pointer hover:bg-lgblue2 hover:border-white sm:text-base'>
         <p className='text-gblue'>Hello, thanks for setting up the Chess Club. I've been a member for a few weeks now and I'm already having lots of fun and improving my game.</p>
       </div>
       </div>
